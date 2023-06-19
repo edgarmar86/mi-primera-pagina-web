@@ -1,48 +1,143 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mi página web</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Mi Portafolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header img {
+  width: 150px; /* Cambia este valor al ancho deseado */
+  height: auto; /* Asegura que la imagen mantenga su proporción */
+}
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    p {
+      line-height: 1.5;
+    }
+    footer {
+      text-align: center;
+      color: #777;
+      font-size: 12px;
+      margin-top: 20px;
+    }
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 20px;
+  background-color: #A9D0F5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  color: #777;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Bienvenido a mi página web</h1>
+  <header> 
+    <img src="https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"alt="Imagen de cabecera">
+    <h1>Edgar Alirio Martinez Mozo</h1>
   </header>
-  
+
   <main>
     <section>
-      <h2>Acerca de</h2>
-      <p>Texto de información sobre mí o sobre el sitio web.</p>
+      <h2>Biografía</h2>
+      <p>"¡Hola! Soy Edgar Alirio Martinez Mozo, un ingeniero electricista con maestría en gerencia de proyectos, apasionado y creativo. Con 13 años de experiencia en desarrollo e implementación de proyectos en baja tensión, construcción de propiedades horizontales, cooworking, datacenters, CCTV, diseño de redes eléctricas para RETIE, y especificación de UPS, plantas eléctricas y aire acondicionado. Destacado por trabajo en equipo, responsabilidad y cumplimiento de objetivos. Experiencia en planificación, diseño e implementación de proyectos eléctricos y de construcción de sedes bancarias a nivel nacional."</p>
     </section>
-    
+
     <section>
-      <h2>Servicios</h2>
+      <h2>Habilidades</h2>
       <ul>
-        <li>Servicio 1</li>
-        <li>Servicio 2</li>
-        <li>Servicio 3</li>
+        <li>Resiliente</li>
+        <li>Trabajo en Equipo</li>
+        <li>comunicacion acertiva</li>
       </ul>
     </section>
-    
+
+    <section>
+      <h2>Experiencia Laboral</h2>
+      <ul>
+        <li>Banco Agrario de Colombia - Profesional Universitario - actualmente</li>
+        <li>Electrotiguer SAS - Gerente General-representante Legal -actualmente</li>
+        <li>SV Ingenieria - Profesional de Proyectos - 2013</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Proyectos Destacados</h2>
+      <ul>
+        <li>Proyecto 1 - Planeacion, diseño e interventoria de Proyecto Gramalote Norte de Santander</li>
+        <li>Proyecto 2 - Planeacion,diseño s interventoria de proyecto Apartado Antioquia</li>
+        <li>Proyecto 3 - Diseño electrico para RETIE y RETILAP Proyecto de Elemento 600 puestos de trabajo</li>
+      </ul>
+    </section>
+
     <section>
       <h2>Contacto</h2>
-      <form>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje" required></textarea>
-        
-        <input type="submit" value="Enviar">
-      </form>
+      <p>Puedes contactarme a través de los siguientes medios:</p>
+      <ul>
+        <li>Email: edgar.martinez86@hotmail.com</li>
+        <li>Teléfono:3124460469</li>
+        <li>LinkedIn: https://www.linkedin.com/feed/</li>
+      </ul>
     </section>
   </main>
-  
+
   <footer>
-    <p>© 2023 Mi Página Web. Todos los derechos reservados.</p>
+    <p>Derechos de autor &copy; 2023 Edgar Alirio Martinez Mozo</p>
   </footer>
 </body>
 </html>
